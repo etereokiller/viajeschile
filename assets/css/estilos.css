@@ -1,0 +1,108 @@
+body{
+    background: black;
+}
+.carousel-inner > .item > img { width:100%; height:570px; }
+
+/*Navbar*/
+nav{
+    background-color transparent !important;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: "Oswald";
+    font-weight: bold;
+}
+/*hero section
+#Hero-Section {
+    height: 100vh;
+   /* background-image: url("../img/bg_hero.png");*/
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;*/
+}
+#Inicio div{
+    height: 100vh;
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+}
+#Inicio hr{
+    width: 350px;
+    height: 1px;
+}
+
+#Inicio h1{
+    font-size: 20px;
+    font-family: "Oswald";
+}
+
+#Inicio h1 :first-child{
+    font-weight: 200;
+}
+
+#Inicio h1 :last-child{
+    font-weight: bold;
+
+}
+@media (max-width : 576px){
+    #Inicio h1{
+    font-size: 20px;
+}
+#Inicio hr{
+    width: 200px;
+}
+}
+
+/*SObre Mi*/
+#Quienes-somos{
+    color: #373a3c;
+
+}
+
+#Quienes-somos hr{
+    width: 115px;
+    height: 1px;
+}
+
+#Quienes-somos h4, #Sobre-Mi div:last-child{
+    font-family: "Open Sans";
+    line-height: 3;
+}
+#Quienes-somos h4{
+    font-weight: 600;
+}
+
+
+/*mis ultimos trabajos*/
+#Destacados{
+    background-color: black;
+}
+#Destacados div h1{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Oswald";
+}
+
+#Destacados div hr{
+    width: 110px;
+    height: 1px;
+}
+
+/*contacto*/
+
+#Contacto div h1{
+    font-size: 52px;
+    font-family: "Oswald";
+    color:white;
+}
+#Contacto div hr{
+    width: 150px;
+    border: 1px solid;
+}
+#Footer{
+    background-color: rgb(43, 131, 231);
+}
+#Footer h1{
+    font-family: "Oswald";
+}
