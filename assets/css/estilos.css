@@ -60,8 +60,8 @@ nav{
     font-family: "Oswald";
 }
 
-#Quienes-somos{
-    color: #373a3c;
+#Quienes-somos div p{
+    color: white;
 
 }
 
@@ -73,6 +73,7 @@ nav{
 #Quienes-somos h4, #Sobre-Mi div:last-child{
     font-family: "Open Sans";
     line-height: 3;
+    color: white;
 }
 #Quienes-somos h4{
     font-weight: 600;
@@ -81,12 +82,15 @@ nav{
 
 /*mis ultimos trabajos*/
 #Destacados{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
-#Destacados div h1{
+#Destacados div h1 p{
     font-size: 20px;
     font-weight: bold;
     font-family: "Oswald";
+    color:white;
+    background-color: teal;
+    
 }
 
 #Destacados div hr{
