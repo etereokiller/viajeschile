@@ -1,7 +1,7 @@
 body{
     background: black;
 }
-.carousel-inner > .item > img { width:100%; height:570px; }
+
 
 /*Navbar*/
 nav{
@@ -22,7 +22,6 @@ nav{
     position: relative;*/
 }
 #Inicio div{
-    height: 100vh;
     position: absolute;
     bottom: 40px;
     width: 100%;
@@ -33,7 +32,7 @@ nav{
 }
 
 #Inicio h1{
-    font-size: 20px;
+    font-size: 72px;
     font-family: "Oswald";
 }
 
@@ -47,7 +46,7 @@ nav{
 }
 @media (max-width : 576px){
     #Inicio h1{
-    font-size: 20px;
+    font-size: 40px;
 }
 #Inicio hr{
     width: 200px;
@@ -55,6 +54,12 @@ nav{
 }
 
 /*SObre Mi*/
+#Quienes-somos div h1{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Oswald";
+}
+
 #Quienes-somos{
     color: #373a3c;
 
@@ -105,4 +110,5 @@ nav{
 }
 #Footer h1{
     font-family: "Oswald";
+    font-size: 30px;
 }
